@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "chunkfiveregular";
+  src: url("./font/chunkfive-regular-webfont.woff2") format("woff2"), url("./font/chunkfive-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(47, 47, 47);
+  color: white;
+}
+
+#projects {
+  padding-top: 6rem;
+  background-color: #273036;
+}
+
+.project {
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer {
+  padding-bottom: 50px;
+  background-color: #273036;
+  color: white;
+}
+section {
+  padding-top: 5rem;
+}
+i {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  border-color: cornflowerblue;
+}
+.navbar-shrink {
+  background-color: #fff;
+  color: black;
+}
+
+.bi-instagram,
+.bi-twitter,
+.bi-github,
+.bi-linkedin {
+  color: white;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.bi-instagram:hover {
+  font-size: 40px;
+  color: rgb(138, 58, 185);
+}
+
+.bi-twitter:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-linkedin:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-github:hover {
+  font-size: 40px;
+  color: green;
+}

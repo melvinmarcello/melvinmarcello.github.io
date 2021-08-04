@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "chunkfiveregular";
+  src: url("./font/chunkfive-regular-webfont.woff2") format("woff2"), url("./font/chunkfive-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* index */
+
+body {
+  background-image: url("../img/backgorund1.png");
+}
+h1 .display-4,
+.heading {
+  font-size: large;
+  color: white;
+  font-family: "chunkfiveregular", Arial, Helvetica, sans-serif;
+}
+.heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.btn {
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.prf {
+  margin-bottom: 5px;
+  margin-top: 30px;
+  transition: 1s;
+}
+.heading {
+  transition: 1s;
+}
+.container {
+  transition: 1s;
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+.container:hover .prf {
+  transform: scale(1.2) translate(-100px);
+  margin-bottom: -15px;
+}
+
+.container:hover .heading {
+  transform: translateX(50px) translateY(-50px) scale(1.2);
+}
+
+.bi-instagram,
+.bi-twitter,
+.bi-github,
+.bi-linkedin {
+  color: white;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+.bi-instagram:hover {
+  font-size: 40px;
+  color: rgb(138, 58, 185);
+}
+.bi-twitter:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-linkedin:hover {
+  font-size: 40px;
+  color: cornflowerblue;
+}
+.bi-github:hover {
+  font-size: 40px;
+  color: green;
+}
