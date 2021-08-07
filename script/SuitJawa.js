@@ -27,47 +27,6 @@ function randomComp() {
   }, 100);
 }
 
-// const gjh = document.querySelector('.gajah');
-// gjh.addEventListener('click', function() {
-//     const comp = pComp();
-//     const player = gjh.className;
-//     const hasil = getHasil(comp, player);
-
-//     const imgComp = document.querySelector('.img-komputer');
-//     imgComp.setAttribute('src', '../img/'+comp+'.png');
-
-//     const display = document.querySelector('.info');
-//     display.innerHTML = hasil;
-// });
-
-// const org = document.querySelector('.orang');
-// org.addEventListener('click', function() {
-//     const comp = pComp();
-//     const player = org.className;
-//     const hasil = getHasil(comp, player);
-
-//     const imgComp = document.querySelector('.img-komputer');
-//     imgComp.setAttribute('src', '../img/'+comp+'.png');
-
-//     const display = document.querySelector('.info');
-//     display.innerHTML = hasil;
-// });
-
-// const smt = document.querySelector('.semut');
-// smt.addEventListener('click', function() {
-//     const comp = pComp();
-//     const player = smt.className;
-//     let hasil = getHasil(comp, player);
-
-//     const imgComp = document.querySelector('.img-komputer');
-//     imgComp.setAttribute('src', '../img/'+comp+'.png');
-
-//     const info = document.querySelector('.info');
-//     info.innerHTML = hasil;
-
-// });
-
-// Versi Singkat dari yang atas
 var i = 1;
 var j = 1;
 
