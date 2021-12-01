@@ -7,6 +7,8 @@
     <link rel="icon" href="./img/Logofix1.png" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="./style/style2.css">
     <!-- BS icon -->
@@ -16,11 +18,11 @@
   <body>
      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
           <!-- <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top navbar-shrink" style="background-color: cornflowerblue"></nav> -->
-            <div class="container">
-               <a href="#home"><img src="./img/M.png" width='40' height='40'></a>
+          <div class="container">
+               <a href="#home"><img src="./img/Logofix1.png" width='40' height='40'></a>
               <a class="navbar-brand ms-2 color-handler" href="#">Melvin Marcello</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+               <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
@@ -37,135 +39,207 @@
                          <li class="nav-item me-5 ms-5">
                            <a class="nav-link contact" href="#contact">Contact Me</a>
                          </li>
-                       </ul>
+                    </ul>
               </div>
-            </div>
+          </div>
      </nav>
-          <section id= "home" class="jumbotron text-center">
-            <img src="img/WhatsApp Image 2021-07-26 at 08.43.39.jpeg" alt="Melvin Marcello" width="200" class="rounded-circle img-thumbnail">
-            <h1 class="display-4">Melvin Marcello</h1>
-            <p class="lead">~Information Technology~</p>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L24,101.3C48,107,96,117,144,128C192,139,240,149,288,160C336,171,384,181,432,170.7C480,160,528,128,576,106.7C624,85,672,75,720,112C768,149,816,235,864,272C912,309,960,299,1008,288C1056,277,1104,267,1152,240C1200,213,1248,171,1296,154.7C1344,139,1392,149,1416,154.7L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
-          </section>
-       
-          <!-- About Me -->
-          <section id="about">
-               <div class="container">
-                    <div class="row text-center mb-3">
-                         <div class="col">
-                              <h2>About Me</h2>
-                         </div>
+     <section id= "home" class="jumbotron text-center">
+          <img src="./img/WhatsApp Image 2021-07-26 at 08.43.39.jpeg" alt="Melvin Marcello" width="200" class="rounded-circle img-thumbnail">
+          <h1 class="display-4">Melvin Marcello</h1>
+          <p class="lead">~Information Technology~</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L24,101.3C48,107,96,117,144,128C192,139,240,149,288,160C336,171,384,181,432,170.7C480,160,528,128,576,106.7C624,85,672,75,720,112C768,149,816,235,864,272C912,309,960,299,1008,288C1056,277,1104,267,1152,240C1200,213,1248,171,1296,154.7C1344,139,1392,149,1416,154.7L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+     </section>
+     <!-- About Me -->
+     <section id="about">
+          <div class="container">
+               <div class="row text-center mb-3">
+                    <div class="col">
+                         <h2>About Me</h2>
                     </div>
-                    <div class="row justify-content-center fs-5 text-center">
-                         <div class="col-md-4">
-                              <p>Hello, my name is Melvin Marcello nineteen years ago I was born in Jakarta, Indonesia,  I'm a student of Pembangunan Nasional "Veteran" Jakarta University with Information Technology major.</p>
-                         </div>
-                         <div class="col-md-4">
-                              <p>I do love about Technology, Sometimes when I have a free time I learn about Cyber Security and Web Programming. Besides that if I'm bored and stuck with a code I also like to watch movie.</p>
+               </div>
+               <div class="row justify-content-center fs-5 text-center">
+                    <div class="col-md-4" data-aos="fade-right" data-duration="1000">
+                         <p>Hello, my name is Melvin Marcello nineteen years ago I was born in Jakarta, Indonesia,  I'm a student of Pembangunan Nasional "Veteran" Jakarta University with Information Technology major.</p>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-left" data-duration="1000" data-aos-delay="200">
+                         <p>I do love about Technology, Sometimes when I have a free time I learn about Cyber Security and Web Programming. Besides that if I'm bored and stuck with a code I also like to watch movie.</p>
+                    </div>
+               </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,96L30,112C60,128,120,160,180,186.7C240,213,300,235,360,250.7C420,267,480,277,540,272C600,267,660,245,720,202.7C780,160,840,96,900,69.3C960,43,1020,53,1080,74.7C1140,96,1200,128,1260,122.7C1320,117,1380,75,1410,53.3L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,32L40,58.7C80,85,160,139,240,138.7C320,139,400,85,480,80C560,75,640,117,720,133.3C800,149,880,139,960,165.3C1040,192,1120,256,1200,266.7C1280,277,1360,235,1400,213.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
+     </section>
+     <!-- Projects -->
+     <section  id="projects">
+          <div class="container">
+               <div class="row text-center mt-4">
+                    <div class="col mb-3">
+                         <h2 class='project'>Dream Cars</h2>
+                         <div class="row">
+                              <div class="col-md mb-3">
+                                   <div class="card" data-aos="flip-left" data-duration="1000">
+                                        <img src="./img/supramk4.jpg" class="card-img-top img-thumbnail" alt="Project 1">
+                                        <div class="card-body">
+                                        <p class="card-text">The Toyota Supra (Japanese: トヨタ・スープラ, Toyota Sūpura) is a sports car and grand tourer manufactured by Toyota Motor Corporation beginning in 1978. 
+                                             The name "supra" is derived from the Latin prefix, meaning "above", "to surpass" or "go beyond".
+                                             The turbocharged variant could accelerate 0–97 km/h (0–60 mph) in as low as 4.6 seconds and cover 402 m (1⁄4 mile) in 13.1 seconds at 175 km/h (109 mph).
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-md mb-3">
+                                   <div class="card" data-aos="flip-left" data-duration="1000">
+                                        <img src="./img/1867160.jpg" class="card-img-top img-thumbnail" alt="Project 3">
+                                        <div class="card-body">
+                                        <p class="card-text">The Nissan GT-R is a high-performance sports car and grand tourer produced by Nissan that was unveiled in 2007. 
+                                             It is the successor to the Skyline GT-R, a high performance variant of the Nissan Skyline. 
+                                             Although the car is the sixth-generation model to bear the GT-R name, the model is no longer part of the Nissan Skyline model lineup since that name is now reserved for Nissan's luxury-sport vehicles. 
+                                             The GT-R shares the Nissan FM platform with the now separate Nissan Skyline luxury car and the Nissan Z-car sports car.
+                                        </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-md mb-3">
+                                   <div class="card" data-aos="flip-right" data-duration="1000">
+                                        <img src="./img/NXS 1991.jpg" class="card-img-top img-thumbnail" alt="Project 2">
+                                        <div class="card-body">
+                                        <p class="card-text">The first generation of the Honda NSX produced between 1990 and 2005. For the model reintroduced in 2016, see Honda NSX (second generation).
+                                             The first generation Honda NSX (New Sportscar eXperimental), marketed in North America and Hong Kong as the Acura NSX, is a 2-seater, mid-engine sports car that was manufactured by Honda in Japan from 1990 to 2005.
+                                        </p>
+                                        </div>
+                                   </div>
+                              </div>
                          </div>
                     </div>
                </div>
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,96L30,112C60,128,120,160,180,186.7C240,213,300,235,360,250.7C420,267,480,277,540,272C600,267,660,245,720,202.7C780,160,840,96,900,69.3C960,43,1020,53,1080,74.7C1140,96,1200,128,1260,122.7C1320,117,1380,75,1410,53.3L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-               <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,32L40,58.7C80,85,160,139,240,138.7C320,139,400,85,480,80C560,75,640,117,720,133.3C800,149,880,139,960,165.3C1040,192,1120,256,1200,266.7C1280,277,1360,235,1400,213.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg> -->
-          </section>
-          <!-- Projects -->
-          <section  id="projects">
-            <div class="container">
-                 <div class="row text-center mt-4">
-                      <div class="col mb-3">
-                           <h2 class='project'>Dream Cars</h2>
-                           <div class="row">
-                                <div class="col-md mb-3">
-                                     <div class="card">
-                                          <img src="img/supramk4.jpg" class="card-img-top img-thumbnail" alt="Project 1">
-                                          <div class="card-body">
-                                            <p class="card-text">The Toyota Supra (Japanese: トヨタ・スープラ, Toyota Sūpura) is a sports car and grand tourer manufactured by Toyota Motor Corporation beginning in 1978. 
-                                                 The name "supra" is derived from the Latin prefix, meaning "above", "to surpass" or "go beyond".
-                                                 The turbocharged variant could accelerate 0–97 km/h (0–60 mph) in as low as 4.6 seconds and cover 402 m (1⁄4 mile) in 13.1 seconds at 175 km/h (109 mph).
-                                               </p>
-                                          </div>
-                                        </div>
-                                </div>
-                                <div class="col-md mb-3">
-                                     <div class="card">
-                                          <img src="img/1867160.jpg" class="card-img-top img-thumbnail" alt="Project 3">
-                                          <div class="card-body">
-                                            <p class="card-text">The Nissan GT-R is a high-performance sports car and grand tourer produced by Nissan that was unveiled in 2007. 
-                                                 It is the successor to the Skyline GT-R, a high performance variant of the Nissan Skyline. 
-                                                 Although the car is the sixth-generation model to bear the GT-R name, the model is no longer part of the Nissan Skyline model lineup since that name is now reserved for Nissan's luxury-sport vehicles. 
-                                                 The GT-R shares the Nissan FM platform with the now separate Nissan Skyline luxury car and the Nissan Z-car sports car.
-                                            </p>
-                                          </div>
-                                        </div>
-                                </div>
-                                <div class="col-md mb-3">
-                                     <div class="card">
-                                          <img src="img/NXS 1991.jpg" class="card-img-top img-thumbnail" alt="Project 2">
-                                          <div class="card-body">
-                                            <p class="card-text">The first generation of the Honda NSX produced between 1990 and 2005. For the model reintroduced in 2016, see Honda NSX (second generation).
-                                               The first generation Honda NSX (New Sportscar eXperimental), marketed in North America and Hong Kong as the Acura NSX, is a 2-seater, mid-engine sports car that was manufactured by Honda in Japan from 1990 to 2005.
-                                            </p>
-                                          </div>
-                                        </div>
-                                </div>
-       
-                           </div>
-                      </div>
-                 </div>
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L30,106.7C60,117,120,139,180,138.7C240,139,300,117,360,90.7C420,64,480,32,540,26.7C600,21,660,43,720,69.3C780,96,840,128,900,138.7C960,149,1020,139,1080,117.3C1140,96,1200,64,1260,80C1320,96,1380,160,1410,192L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,96C384,139,480,213,576,213.3C672,213,768,139,864,128C960,117,1056,171,1152,170.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-          </section>
-       <!-- Contact Me -->
-          <section id="contact">
-               <div class="container">
-                    <div class="row text-center mb-3">
-                         <div class="col">
-                              <h2>Contact Me</h2>
+          </div>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,96C384,139,480,213,576,213.3C672,213,768,139,864,128C960,117,1056,171,1152,170.7C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+     </section>
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L30,106.7C60,117,120,139,180,138.7C240,139,300,117,360,90.7C420,64,480,32,540,26.7C600,21,660,43,720,69.3C780,96,840,128,900,138.7C960,149,1020,139,1080,117.3C1140,96,1200,64,1260,80C1320,96,1380,160,1410,192L1440,224L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+     <section id="planets">
+          <div class="container">
+               <div class="row text-center mb-3">
+                    <div class="col">
+                         <h2>Our Planets</h2>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                         <div class="box">
+                              <h4 class="name">Mercury</h4>
+                              <img src="./img/1.png" alt="" class="planet-img">
+                              <a href="#" class="btn btn-outline-light detail-button">Show Details</a>
                          </div>
                     </div>
-                    <div class="row justify-content-center">
-                         <div class="col-6">
-                           <form>
-                                <div class="mb-3">
-                                  <label for="name" class="form-label">Nama Lengkap</label>
-                                  <input placeholder="Full Name" type="text" class="form-control" id="name" aria-describedby="name">
-                                  
-                                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                                  <input placeholder="Email" type="email" class="form-control" id="email" aria-describedby="email">
-                                </div>
-                                <div class="mb-3">
-                                     <label for="pesan" class="form-label">Pesan</label>
-                                     <textarea placeholder="Messages" class="form-control" id="pesan" rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Send</button>
-                              </form>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                         <div class="box">
+                              <h4 class="name">Mars</h4>
+                              <img src="./img/2.png" alt="" class="planet-img">
+                              <a href="#" class="btn btn-outline-light detail-button">Show Details</a>
+                         </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                         <div class="box">
+                              <h4 class="name">Jupiter</h4>
+                              <img src="./img/3.png" alt="" class="planet-img">
+                              <a href="#" class="btn btn-outline-light detail-button">Show Details</a>
                          </div>
                     </div>
                </div>
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,64C384,75,480,117,576,144C672,171,768,181,864,192C960,203,1056,213,1152,192C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-               <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6494ed" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,234.7C384,245,480,235,576,218.7C672,203,768,181,864,197.3C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
-          </section>
-       
-          <!-- Footer -->
-          <footer class="pb-3">
-               <div class="container">
-                 <div class="row justify-content-between align-tems-center">
-                      <div class="col-9">
-                        <p>Create With Love by <a class="link-light" href="instagram.com/melvinmarcello_">Melvin Marcello</a> </p>
-                      </div>
-                      <div class="col-3">
-                        <div class="ico fs-4 ms-5">
-                         <a href="https://www.instaragam.com/melvinmarcello_"><i class="bi bi-instagram me-3"></i></a>
-                         <a href="https://www.twitter.com/lorddvoldemort"><i class="bi bi-twitter me-3"></i></a>
-                         <a href="https://www.github.com/melvinmarcello"><i class="bi bi-github me-3"></i></a>
-                         <a href="https://www.linkedin.com/in/melvin-marcello-791185218"><i class="bi bi-linkedin"></i></a>
-                        </div>
-                     </div>   
-                 </div>
+          </div>
+     </section>
+     <!-- Contact Me -->
+     <section id="contact">
+          <div class="container">
+               <div class="row text-center mb-3">
+                    <div class="col">
+                         <h2>Contact Me</h2>
+                    </div>
                </div>
-          </footer>
+               <div class="row justify-content-center">
+                    <div class="col-6">
+                         <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                              <strong>Thank You!</strong> Your Message has been sent.
+                              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                              </div>
+                         <form name="contact-form">
+                              <div class="mb-3">
+                              <label for="name" class="form-label">Nama Lengkap</label>
+                              <input placeholder="Full Name" name="nama" type="text" class="form-control" id="name" aria-describedby="name">
+                              
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input placeholder="Email" name="email" type="email" class="form-control" id="email" aria-describedby="email">
+                              </div>
+                              <div class="mb-3">
+                                   <label for="pesan" class="form-label">Pesan</label>
+                                   <textarea placeholder="Messages" name="pesan" class="form-control" id="pesan" rows="3"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-outline-primary kirim">Send</button>
+                              <button class="btn btn-outline-primary d-none loading" type="button" disabled>
+                              <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
+                              Loading...
+                              </button>
+                         </form>
+                    </div>
+               </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,96L48,85.3C96,75,192,53,288,64C384,75,480,117,576,144C672,171,768,181,864,192C960,203,1056,213,1152,192C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6494ed" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,234.7C384,245,480,235,576,218.7C672,203,768,181,864,197.3C960,213,1056,267,1152,282.7C1248,299,1344,277,1392,266.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+     </section>
+     <!-- Footer -->
+     <footer class="pb-3">
+          <div class="container">
+               <div class="row justify-content-between align-tems-center">
+                    <div class="col-9">
+                    <p>Create With Love by <a class="link-light" href="instagram.com/melvinmarcello_">Melvin Marcello</a> </p>
+                    </div>
+                    <div class="col-3">
+                    <div class="ico fs-4 ms-5">
+                    <a href="https://www.instaragam.com/melvinmarcello_"><i class="bi bi-instagram me-3"></i></a>
+                    <a href="https://www.twitter.com/lorddvoldemort"><i class="bi bi-twitter me-3"></i></a>
+                    <a href="https://www.github.com/melvinmarcello"><i class="bi bi-github me-3"></i></a>
+                    <a href="https://www.linkedin.com/in/melvin-marcello-791185218"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    </div>   
+               </div>
+          </div>
+     </footer>
      <script src="./script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbzYdbk5I2p7s3Nljr5bk_mbFKYZd_My4ngh02oTpElU-oeepEnuJKodb3cg3SohJaEL/exec'
+     const form = document.forms['contact-form']
+     const btnKirim = document.querySelector(".kirim")
+     const btnLoading = document.querySelector(".loading")
+     const alert = document.querySelector(".alert")
+
+     form.addEventListener('submit', e => {
+       e.preventDefault()
+
+       btnLoading.classList.toggle("d-none");
+       btnKirim.classList.toggle("d-none");
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         .then((response) => {  
+               btnKirim.classList.toggle("d-none");
+               btnLoading.classList.toggle("d-none");
+               alert.classList.toggle("d-none");
+               form.reset();
+               console.log('Success!', response)
+         })
+         .catch(error => console.error('Error!', error.message))
+     })
+   </script>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 200,
+        glare:true
+      });
+     </script>
   </body>
 </html>

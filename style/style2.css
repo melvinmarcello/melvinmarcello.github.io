@@ -71,3 +71,85 @@ i {
   font-size: 40px;
   color: green;
 }
+
+.box {
+  background-color: #273036;
+  border-radius: 10px;
+  height: 500px;
+  position: relative;
+  color: white;
+  transform-style: preserve-3d;
+}
+.box::before {
+  content: "OUR";
+  color: white;
+  position: absolute;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.box:hover::before {
+  opacity: 0.2;
+}
+
+.box::after {
+  content: "PLANETS";
+  color: white;
+  position: absolute;
+  font-size: 5em;
+  font-weight: bold;
+  font-style: italic;
+  top: 330px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+.box:hover::after {
+  opacity: 0.2;
+}
+.name {
+  color: white;
+  top: 0;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5s;
+  position: absolute;
+  width: 100%;
+  transform: translateZ(50px);
+}
+.box:hover .name {
+  top: 20px;
+  opacity: 1;
+}
+.detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translate3D(-50%, 0, 101px);
+  transition: 0.5s;
+}
+.box:hover .detail-button {
+  opacity: 1;
+  bottom: 15px;
+}
+.planet-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3D(-50%, -45%, 100px);
+  max-width: 280px;
+  transition: 0.5s;
+}
+
+.planet-img:hover {
+  transform: translate3D(-50%, -45%, 100px) scale(1.3);
+}

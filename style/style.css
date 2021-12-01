@@ -10,6 +10,7 @@
 body {
   background-image: url("../img/backgorund1.png");
   background-size: cover;
+  overflow-x: hidden;
 }
 h1 .display-4,
 .heading {
