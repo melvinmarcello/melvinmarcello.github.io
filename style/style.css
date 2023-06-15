@@ -8,7 +8,7 @@
 /* index */
 
 body {
-  background-image: url("../img/backgorund1.png");
+  background-image: url("../img/site-bg.jpg");
   background-size: cover;
   overflow-x: hidden;
 }
@@ -25,11 +25,11 @@ h1 .display-4,
 
 .btn {
   border-radius: 10px;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 .btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .prf {
@@ -45,13 +45,16 @@ h1 .display-4,
   margin-bottom: 5px;
   margin-top: 40px;
 }
-.container:hover .prf {
-  transform: scale(1.2) translate(-100px);
-  margin-bottom: -15px;
+
+.wrapper{
+  margin: auto;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.container:hover .heading {
-  transform: translateX(50px) translateY(-50px) scale(1.2);
+.wrapper a{
+  text-decoration: none;
 }
 
 .bi-instagram,
@@ -64,18 +67,14 @@ h1 .display-4,
 }
 
 .bi-instagram:hover {
-  font-size: 40px;
   color: rgb(138, 58, 185);
 }
 .bi-twitter:hover {
-  font-size: 40px;
   color: cornflowerblue;
 }
 .bi-linkedin:hover {
-  font-size: 40px;
   color: cornflowerblue;
 }
 .bi-github:hover {
-  font-size: 40px;
   color: green;
 }

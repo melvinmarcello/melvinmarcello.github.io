@@ -36,7 +36,7 @@ play.addEventListener("click", function () {
     do {
       if (total >= 1) {
         var p = prompt("Masukan Angka Tebakan");
-        if (p == comp) alert("Kok Jago Sih...");
+        if (p == comp) alert("Benar! Kok Jago Sih...");
         else {
           if (p > comp) {
             total--;
